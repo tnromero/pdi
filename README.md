@@ -33,13 +33,14 @@ graph LR;
     D --> D1[Apache Kafka];
 
     E[DevOps];
+    E --> E0[Git];
     E --> E1[Terraform];
     E --> E2[GitHub Actions];
     E --> E3[Técnicas de Deploy];
 
     E3 --> E31[Blue/Green];
     E3 --> E32[Canary];
-        
+    
     C0 --> C111[Treinamentos Alura 1];
     C1 --> C112[Treinamentos Alura 2];
 
